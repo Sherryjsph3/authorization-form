@@ -26,18 +26,28 @@
 }
 
 body {
-  background-color: rgb(230, 198, 188, 0.80);
+  background-color: rgb(197, 161, 140, 0.70);
 }
 
 input {
   margin: 8px;
   font-family: mirande;
-  border-radius: 5px;
+  border-radius: 15px;
   border: 1.5px solid black;
-  
+}
+input:focus {
+  outline: 1px solid transparent;
+  border: 1.5px solid black;
 }
 .btn {
-  background-color: white;
+  /* background-color: transparent; */
+  background-color: rgb(172, 170, 169, 0.60);
+  
+}
+.btn:hover {
+  box-shadow: 1px 1px 1px rgb(41, 41, 41, 0.60);
+  cursor: pointer;
+
 }
 
 ul {
@@ -49,4 +59,5 @@ li {
   font-family: mirande;
   font-size: 20px;
   padding: 12px;
+  font-weight: bolder;
 }
